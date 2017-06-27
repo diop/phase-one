@@ -1,6 +1,9 @@
 ## Resources
 
 + [http://underscorejs.org/](http://underscorejs.org/)
++ [https://github.com/stoeffel/awesome-fp-js](https://github.com/stoeffel/awesome-fp-js)
++ [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)
++ [eslint-config-cleanjs](https://github.com/bodil/eslint-config-cleanjs)
 
 ## Readings
 
