@@ -1,5 +1,9 @@
 ## June 27th 
 
 PBCopy: paste Buffer Copy 
-ex - echo | pbcopy
+example - echo $PATH | pbcopy
 
+
+- Grep
+find /usr/shre/dict/words | grep -i word
+find /usr/shre/dict/words | grep -i word | wc -l
