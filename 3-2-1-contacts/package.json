@@ -4,14 +4,16 @@
   "description": "",
   "main": "contacts.js",
   "dependencies": {
+    "chai": "^4.0.2",
     "cli-table": "^0.3.1",
     "console.table": "^0.8.0",
+    "mocha": "^3.4.2",
     "node-print": "0.0.4",
     "underscore": "^1.8.3"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha || true"
   },
   "author": "",
   "license": "ISC"

@@ -23,32 +23,28 @@ const addContacts = (contactData) => {
 
 const printContacts = (contacts) => {
     let arr = []
-    let sorted = allContacts.sort((a,b) => {
+    let sorted = allContacts.sort((a, b) => {
 
-      if (a.name < b.name ) {
-        return -1 
-      }
+        if (a.name < b.name) {
+            return -1
+        }
 
-      if (a.name > b.name) {
-        return 1
-      }
+        if (a.name > b.name) {
+            return 1
+        }
 
-      return 0
+        return 0
     })
-    
-    // for (var i = 0; i < sorted.length; i++){
-    //   console.table(sorted[i])
-    // }
 
     console.log("Loading contact data...")
     console.log("...Finished loading contact data.")
     print.pt(sorted)
-    
+
 
 }
 
-///////////////////////////////////////////////////////////////////////////
-// addContact()
+///////////////////////////////////////////////////////////////////////////// 
+
 addContacts([{
     "first_name": "Tanny",
     "last_name": "Vibert",
